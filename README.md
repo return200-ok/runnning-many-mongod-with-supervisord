@@ -9,7 +9,7 @@ vim /etc/mongo/mongod.conf
 ```
 ##config supervisord:
 ```bash
-vim /etc/supervisord.conf
+vim /etc/supervisor/conf.d/mongod.conf
 ```
 ##start supervisord
 ```bash
